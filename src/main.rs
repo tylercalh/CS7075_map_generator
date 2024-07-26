@@ -10,7 +10,7 @@ use std::io::BufWriter;
 fn main() {
     let num_maps = 50;
     for i in 0..num_maps {
-	let map_size = 513;
+	let map_size = 103;
 	let mut map = Array::<usize, Ix2>::ones((map_size, map_size));
 
 	dig(1, 1, &mut map);
